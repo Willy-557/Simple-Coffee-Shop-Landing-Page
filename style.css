@@ -45,8 +45,15 @@
     padding-bottom: 5px;
     border-radius: 50cm;
     border: 1px solid #006041;  
+
+    transition: 0.5s;
 }
 
+.navbar .tengah .download:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #006041;
+}
 .hero-promotion {
     display: flex;
     justify-content: center;
@@ -124,4 +131,25 @@
     color: #97a259;
     font-style: normal;
     line-height: 40px;
+}
+
+.hero-banner-promotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-image {
+    align-items: center;
+}
+
+.banner-image .foto1{
+    width: 100px;
+}
+.banner-image .foto2{
+    width: 100px;
+}
+.banner-image .foto3{
+    width: 100px;
 }
