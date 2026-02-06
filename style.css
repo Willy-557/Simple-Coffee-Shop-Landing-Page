@@ -135,21 +135,50 @@
 
 .hero-banner-promotion {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+    background-color: #cdcec6;
+    padding: 15.8vh 30vh;
 }
 
-.banner-image {
-    align-items: center;
+.card-banner-promotion {
+    background-color: rgba(240, 218, 200, 0.418);
+    padding: 4vh;
+    border-radius: 8vh;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-text .head {
+    color: var(--Foliage-Regular, #006041);
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-style: normal;
+    letter-spacing: -2.7px;
+    font-size: 65px;
+}
+
+.banner-text .sub-head {
+    font-family: "Plus Jakarta Sans", ;
+    color: #97a259;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.banner-image img{
+    width: 40vh;
+    margin-top: 50px;
+    border-radius: 10%;
 }
 
 .banner-image .foto1{
-    width: 100px;
+    margin-right: 40px;
 }
-.banner-image .foto2{
-    width: 100px;
-}
+
 .banner-image .foto3{
-    width: 100px;
+    margin-left: 40px;
 }
