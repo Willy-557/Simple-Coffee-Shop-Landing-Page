@@ -52,9 +52,11 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: 20px 5px;
 
-    background
+    background-color: #765b51;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #fff;
 }
 
 .hero-promotion li{
@@ -63,6 +65,14 @@
 
 .hero-promotion a {
     text-decoration: none;
+    color: #765b51;
+    font-weight: 650;
+}
+
+.visit {
+    background-color: #fff;
+    padding: 2px 30px;
+    border-radius: 50px;
 }
 
 .hero {
@@ -74,10 +84,4 @@
 .hero .teks .header-1 {
     font-size: 100px;
 
-}
-
-.visit {
-    background-color: rgb(224, 85, 85);
-    padding: 2px 30px;
-    border-radius: 50px;
 }
