@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(229, 217, 204);
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+.navbar .logoFore {
+    display: flex;
+    width: 80px;
+}
+
+.navbar .tengah{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 35px;
+}
+
+.navbar .tengah a {
+    text-decoration: none;
+    color: #006041;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 550;
+    font-size: 16px;
+    font-style: normal;
+
+}
+
+.navbar .tengah .download{
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50cm;
+    border: 1px solid #006041;  
+}
+
+.hero-promotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 5px;
+
+    background
+}
+
+.hero-promotion li{
+    list-style-type: none;
+}
+
+.hero-promotion a {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .teks .header-1 {
+    font-size: 100px;
+
+}
+
+.visit {
+    background-color: rgb(224, 85, 85);
+    padding: 2px 30px;
+    border-radius: 50px;
+}
