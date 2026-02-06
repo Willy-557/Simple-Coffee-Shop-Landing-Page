@@ -4,7 +4,7 @@
 }
 
 .navbar {
-    background-color: rgb(229, 217, 204);
+    background-color: rgb(230, 227, 223);
     padding-top: 1px;
     padding-bottom: 30px;
 }
@@ -75,13 +75,53 @@
     border-radius: 50px;
 }
 
+
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: rgb(230, 227, 223);
+}
+
+.gambarKopi {
+    width: 14cm;
+    margin-top: -25px;
 }
 
 .hero .teks .header-1 {
+    color: var(--Foliage-Regular, #006041);
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-style: normal;
+    font-size: 90px;
+    letter-spacing: -2.7px;
+    margin-top: -100px;
     font-size: 100px;
+    margin-right: 150px;
+}
 
+.hero .teks .header-2 {
+    color: var(--Foliage-Regular, #006041);
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-style: normal;
+    width: 20px;
+    letter-spacing: -2.7px;
+    font-size: 100px;
+    margin-top: -45px;
+}
+
+.hero .teks .sub-header-1 {
+    font-family: "Plus Jakarta Sans", ;
+    color: #97a259;
+    font-style: normal;
+    font-size: 29px;
+}
+
+.hero .teks .sub-header-2 {
+    font-size: 29px;
+    margin-top: -10px;
+    font-family: "Plus Jakarta Sans", ;
+    color: #97a259;
+    font-style: normal;
+    line-height: 40px;
 }
